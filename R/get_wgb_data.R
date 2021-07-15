@@ -70,6 +70,8 @@ get_wgb_data_list <- function(pjs_session, url_tbl) {
 #' @param include_forecast logical indicating whether forecasts should be included for the yield metrics - default to FALSE
 #'
 #' @return tbl_df with columns country iso, date, metric and value
+#'
+#' @importFrom magrittr %>%
 #' @export
 #'
 get_wgb_data <- function(country_iso,
